@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="BMI_Calculator">
+  <grid id="27dc6" binding="BMI_Converter" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="122" y="16" width="315" height="200"/>
+    </constraints>
+    <properties>
+      <minimumSize width="300" height="200"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="230dd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="BMI Calculator"/>
+        </properties>
+      </component>
+      <component id="94edc" class="javax.swing.JFormattedTextField" binding="Height">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="1" use-parent-layout="false">
+            <minimum-size width="10" height="-1"/>
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fb226" class="javax.swing.JFormattedTextField" binding="Weight">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="-1"/>
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b33eb" class="javax.swing.JButton" binding="Calculate">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <actionCommand value="convert"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <label value="calculate"/>
+          <selected value="false"/>
+          <text value="calculate"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="29cce" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Height"/>
+        </properties>
+      </component>
+      <component id="c83d0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Weight"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
